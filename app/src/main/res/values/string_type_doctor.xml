@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_type_doctor">
+
+        <item>Anatomia Patológica</item>
+        <item>Anestesiologia</item>
+        <item>Angiologia e Cirurgia Vascular</item>
+        <item>Cancerologia</item>
+        <item>Cardiologia</item>
+        <item>Cardiologia Pediátrica</item>
+        <item>Cirurgia do Aparelho Digestivo</item>
+        <item>Cirurgia Cardio-Torácica</item>
+        <item>Cirurgia Cardiovascular</item>
+        <item>Cirurgia de Cabeça e Pescoço</item>
+        <item>Cirurgia Geral</item>
+        <item>Cirurgia da Mão</item>
+        <item>Cirurgia Maxilo-facial</item>
+        <item>Cirurgia Pediátrica</item>
+        <item>Cirurgia Plástica</item>
+        <item>Cirurgia Plástica e Reconstrutiva e Estética</item>
+        <item>Coloproctologia</item>
+        <item>Dermato-venereologia</item>
+        <item>Doenças Infecciosas</item>
+        <item>Endocrinologia e Metabologia</item>
+        <item>Endocrinologia-Nutrição</item>
+        <item>Endoscopia</item>
+        <item>Estomatologia</item>
+        <item>Farmacologia Clínica</item>
+        <item>Gastroenterologia</item>
+        <item>Genética Médica</item>
+        <item>Geriatria</item>
+        <item>Ginecologia-Obstetrícia</item>
+        <item>Hematologia Clínica</item>
+        <item>Hematologia e Hemoterapia</item>
+        <item>Homeopatia</item>
+        <item>Imuno-alergologia</item>
+        <item>Imuno-hemoterapia</item>
+        <item>Infectologia</item>
+        <item>Medicina Desportiva</item>
+        <item>Medicina Interna</item>
+        <item>Medicina Legal</item>
+        <item>Medicina Nuclear</item>
+        <item>Medicina Tropical</item>
+        <item>Nefrologia</item>
+        <item>Neuro-Cirurgia</item>
+        <item>Neurologia</item>
+        <item>Neuro-Radiologia</item>
+        <item>Oftalmologia</item>
+        <item>Oncologia Médica</item>
+        <item>Ortopedia</item>
+        <item>Otorrinolaringologia</item>
+        <item>Patologia Clínica</item>
+        <item>Pediatria</item>
+        <item>Pneumologia</item>
+        <item>Psiquiatria</item>
+        <item>Psiquiatria da Infância e da Adolescência</item>
+        <item>Radiodiagnóstico</item>
+        <item>Radioterapia</item>
+        <item>Reumatologia</item>
+        <item>Saúde Pública</item>
+        <item>Urologia</item>
+
+    </string-array>
+
+</resources>

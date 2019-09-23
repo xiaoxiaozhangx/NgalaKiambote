@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_type_nurse">
+        <item>Obstetricia</item>
+        <item>Otorrinolaringologia</item>
+        <item>Dentista</item>
+        <item>Oftamologista</item>
+        <item>Cardiologista</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/menu_text_search"
+        android:icon="@drawable/icon_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+    <item
+        android:id="@+id/menu_camera_search_image"
+        android:title="@string/menu_text_camera"
+        android:icon="@drawable/image_camera"
+        app:showAsAction="ifRoom"/>
+
+</menu>

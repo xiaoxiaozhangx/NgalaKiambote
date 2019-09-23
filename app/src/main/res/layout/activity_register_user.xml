@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Register_User">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email">
+
+                <EditText
+                    android:id="@+id/mEdtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:hint="@string/name"
+                    android:singleLine="true"
+                    android:textSize="@dimen/edit_email"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/mEditPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/edit_email"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/mEdtConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/edit_email"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/mRdGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/mRdBtnDoctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:text="@string/doctor"
+                    android:textSize="@dimen/edit_email" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/mActListDoctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:completionHint="@string/select_type_doctor"
+                    android:completionThreshold="1"
+                    android:textSize="@dimen/edit_email"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/mRdBtnNurse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:text="@string/nurse"
+                    android:textSize="@dimen/edit_email" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/mActListNurse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:completionHint="@string/select_type_nurse"
+                    android:textSize="@dimen/edit_email"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/mRdBtnPatient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:text="@string/patient"
+                    android:textSize="@dimen/edit_email" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/mBtnRegisterUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:background="@drawable/background_style_green"
+                android:fontFamily="@font/intro_regular"
+                android:text="@string/register_user"
+                android:textSize="@dimen/edit_email"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mtxtLoginUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/btn_diagnose_iris_margin"
+                android:fontFamily="@font/intro_regular"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/have_account"
+                android:textSize="@dimen/edit_email"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

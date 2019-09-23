@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@+id/mNavigationView">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/customer"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_"
+            android:icon="@drawable/shopping_cart"
+            android:title="Produtos" />
+
+        <item
+            android:id="@+id/nav_wheat"
+            android:icon="@drawable/wheat"
+            android:title="Plantas Medicinais" />
+
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/share"
+                android:title="Partilhar App" />
+
+        </menu>
+    </item>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="Sobre Nós" />
+
+            <item
+                android:id="@+id/nav_terms_and_conditions"
+                android:title="Termos e Condições" />
+        </menu>
+    </item>
+
+</menu>

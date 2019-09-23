@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Ngala Kiambote</string>
+
+    <!-- Activity Title -->
+    <string name="activity_login">Login</string>
+    <string name="activity_register_user">Registro</string>
+    <string name="activity_user_profile">Perfil</string>
+    <string name="activity_about_us">About Us</string>
+    <string name="activity_terms_and_conditions">Terms and Conditions</string>
+    <string name="activity_plants_medical">Plantas Medicinais</string>
+    <string name="activity_diagnose_heartbeat">Batimento Cardiáco</string>
+    <string name="activity_diagnose_temperature">Temperatura Corporal</string>
+    <string name="activity_search_plants_by_image">Procurar Plantas</string>
+    <string name="activity_receive_data_user_telemedicine">Perfil</string>
+    <string name="activity_receive_data_plants_medical">Planta Medicinal</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Text and Hint -->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Enter</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account_create">Don\'t have account? Create…</string>
+    <string name="fill_name">Fill in your name</string>
+    <string name="fill_password">Fill out your password</string>
+    <string name="fill_confirm_password">Fill out your confirm password</string>
+    <string name="processing_account">Processing your account</string>
+    <string name="please_wait">Please wait …</string>
+    <string name="recover_password">Recover the password</string>
+    <string name="loading">Loading</string>
+    <string name="insert_name">Enter your name</string>
+    <string name="send">Send</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="doctor">Doctor</string>
+    <string name="doctors">Doctors</string>
+    <string name="select_type_doctor">Select your Occupation</string>
+    <string name="nurse">Nurse</string>
+    <string name="nurses">Nurses</string>
+    <string name="select_type_nurse">Select your Occupation</string>
+    <string name="patient">Patient</string>
+    <string name="register_user">Register User</string>
+    <string name="have_account">Do you have account? Enter in Account…</string>
+    <string name="different_password">The password not is equal!</string>
+    <string name="check_condition_occupation">Please check one of the options!</string>
+
+
+
+
+
+    <string name="text_and_hint_programmer">Programador</string>
+    <string name="text_and_hint_name_programmer">Romavic dos Anjos Kulipi Cornélio</string>
+    <string name="text_and_hint_name">Nome</string>
+    <string name="text_and_hint_occupations">Médico</string>
+    <string name="text_and_hint_age">Idade</string>
+    <string name="text_and_hint_refresh_data">Actualizar Dados</string>
+    <string name="text_and_hint_body_temperature">Temperatura corporal</string>
+    <string name="text_and_hint_hearth_beat">Batimento Cardíaco</string>
+    <string name="text_and_hint_blood_group">Grupo Sanguíneo</string>
+    <string name="text_and_hint_height">Altura</string>
+    <string name="text_and_hint_blood">Sangue</string>
+    <string name="text_and_hint_temp_body">Temp.Corporal</string>
+    <string name="text_and_hint_heart">Coração</string>
+
+
+
+
+
+
+
+    <string name="text_and_hint_weight">Peso</string>
+    <string name="text_and_hint_hearth_beat_quantity">0</string>
+    <string name="text_and_hint_hearth_beat_information">bpm</string>
+    <string name="text_and_hint_hearth_temperature_information">Nível de Temperatura</string>
+    <string name="text_and_hint_diagnose_iris">Analisar imagem</string>
+    <string name="text_and_hint_symptoms">Sintomas</string>
+    <string name="text_and_hint_increment_question">Aumentar questões</string>
+    <string name="text_and_hint_analyser_question">Fazer diagnóstico</string>
+    <string name="text_and_hint_enter_in_account">Entrar</string>
+
+    <string name="text_and_hint_logout_account">Sair da Conta</string>
+    <string name="text_and_hint_edit_account">Editar Conta</string>
+    <string name="text_and_hint_filter_list">Filtrar Lista</string>
+    <string name="text_and_hint_filter_patient">Pacientes</string>
+
+    <!-- TODO: Text and Hint Symptoms -->
+    <string name="text_and_hint_diagnose_symptoms1">Sintomas</string>
+
+
+
+    <!-- TODO: Menu -->
+    <string name="menu_text_plants_medical">Plantas Medicinais</string>
+    <string name="menu_text_diagnose_iris">Diagnosticar Íris</string>
+    <string name="menu_text_diagnose_hearth_beat">Diagnosticar Batimento Cardiáco</string>
+    <string name="menu_text_diagnose_temperature_body">Diagnosticar Temperatura Corporal</string>
+    <string name="menu_text_search">Procurar</string>
+    <string name="menu_text_share_text_and_image">Partilhar Informação</string>
+    <string name="menu_copy_text">Copiar Informação</string>
+    <string name="menu_text_camera">Camera</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="menu_text_gallery">Gallery</string>
+
+    <!-- TODO: Check Question Diagnose Symptoms -->
+    <string name="check_question1">Dor de cabeça?</string>
+    <string name="check_question2">Tonturas?</string>
+    <string name="check_question3">Enjuado?</string>
+    <string name="check_question4">Dores de Estômago?</string>
+    <string name="check_question5">Febre?</string>
+    <string name="check_question6">Cansaço?</string>
+    <string name="check_question7">Tosse?</string>
+    <string name="check_question8">Dores nas articulações?</string>
+    <string name="check_question9">Enxaqueca?</string>
+    <string name="check_question10">Dores nos músculos?</string>
+    <string name="check_question11">Menstruação Irregular?</string>
+    <string name="check_question12">Infecção nos Olhos?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_color">Color</string>
+    <string name="title_activity_bottom__sheet">Bottom Sheet</string>
+    <string name="title_activity__bluethooth">Bluethooth</string>
+    <string name="title_activity_actvity__text__to__speak">Text To Speak</string>
+    <string name="title_activity_speech__to__text">Speech To Text</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="actualizar">Actualizar</string>
+
+
+    <string name="sobre_mim">Sobre Mim:</string>
+    <string name="diagnose">Plantas Medicinal</string>
+    <string name="telemedicine">Telemedicina</string>
+    <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum deleniti dicta dignissimos distinctio dolorum enim, eos incidunt iste labore, molestias numquam omnis possimus quis quo quod rem rerum similique, tempore vero? Aut corporis error, est facere facilis labore, maxime natus obcaecati perferendis provident quam quibusdam soluta tempora velit, voluptatem!</string>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.NFA.NgalaKiambote.Activity_Menu">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/menu_text_search"
+        android:icon="@drawable/icon_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"/>
+</menu>

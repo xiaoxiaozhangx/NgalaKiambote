@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_relative"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mNavImgUser"
+        android:layout_width="@dimen/navigation_image_user"
+        android:layout_height="@dimen/navigation_image_user"
+        app:civ_border_color="@color/cream"
+        app:civ_border_width="2dp"/>
+
+    <Button
+        android:id="@+id/mNavBtnUserLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Entrar"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/btn_user_logout"
+        android:textStyle="bold"
+        android:fontFamily="@font/intro_regular"
+        android:layout_toEndOf="@id/mNavImgUser"
+        android:layout_alignParentEnd="true"
+        android:gravity="end|bottom"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/mNavTextNameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mNavImgUser"
+        android:paddingTop="8dp"
+        android:text="Romavic dos Anjos KC"
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        android:fontFamily="@font/intro_regular"
+        android:textSize="@dimen/edit_email"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/mNavTextEmailUser"
+        android:layout_below="@id/mNavTextNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="romavicdosanjoskc@gmail.com"
+        android:textColor="@color/cream"
+        android:fontFamily="@font/intro_regular"
+        android:singleLine="true"
+        android:textSize="@dimen/edit_email"/>
+
+</RelativeLayout>

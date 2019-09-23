@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Login">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_input_edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email">
+
+                <EditText
+                    android:id="@+id/mEditName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:hint="@string/name"
+                    android:singleLine="true"
+                    android:textSize="@dimen/edit_email"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/mEditPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intro_regular"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/edit_email"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/mBtnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/text_input_edit_email"
+                android:background="@drawable/background_style_green"
+                android:fontFamily="@font/intro_regular"
+                android:singleLine="true"
+                android:text="@string/login"
+                android:textSize="@dimen/edit_email"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mTextForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email"
+                android:fontFamily="@font/intro_regular"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/forgot_password"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/edit_email"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mTextRegisterUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_input_edit_email"
+                android:fontFamily="@font/intro_regular"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/dont_have_account_create"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/edit_email"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

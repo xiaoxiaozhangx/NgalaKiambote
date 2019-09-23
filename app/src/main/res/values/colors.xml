@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#19769F</color>
+    <color name="colorPrimaryDark">#2C9FD6</color>
+    <color name="colorAccent">#2C9FD6</color>
+    <color name="textColorPrimary">#C6FFFFFF</color>
+    <color name="navigationBarColor">#00574B</color>
+
+    <color name="offlineCall">#BAC4BC</color>
+    <color name="activeCall">#00E930</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlue">#19769F</color>
+    <color name="colorRed">#A30B0B</color>
+
+    <color name="colorAccentSecond">#90FFFFFF</color>
+    <color name="cream">#353836</color>
+
+</resources>
