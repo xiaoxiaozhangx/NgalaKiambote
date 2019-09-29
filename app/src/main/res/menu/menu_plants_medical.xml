@@ -9,10 +9,4 @@
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="collapseActionView|ifRoom"/>
 
-    <item
-        android:id="@+id/menu_camera_search_image"
-        android:title="@string/menu_text_camera"
-        android:icon="@drawable/image_camera"
-        app:showAsAction="ifRoom"/>
-
 </menu>

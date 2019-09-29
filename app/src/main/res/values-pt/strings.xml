@@ -6,9 +6,7 @@
     <!-- Activity Title -->
     <string name="activity_login">Login</string>
     <string name="activity_register_user">Registro</string>
-    <string name="activity_user_profile">Perfil</string>
-    <string name="activity_about_us">About Us</string>
-    <string name="activity_terms_and_conditions">Terms and Conditions</string>
+    <string name="kit_health">Kits de Saúde </string>
     <string name="activity_plants_medical">Plantas Medicinais</string>
     <string name="activity_diagnose_heartbeat">Batimento Cardiáco</string>
     <string name="activity_diagnose_temperature">Temperatura Corporal</string>
@@ -147,6 +145,7 @@
     <string name="diagnose">Plantas Medicinal</string>
     <string name="telemedicine">Telemedicina</string>
     <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum deleniti dicta dignissimos distinctio dolorum enim, eos incidunt iste labore, molestias numquam omnis possimus quis quo quod rem rerum similique, tempore vero? Aut corporis error, est facere facilis labore, maxime natus obcaecati perferendis provident quam quibusdam soluta tempora velit, voluptatem!</string>
+
 
 
 </resources>

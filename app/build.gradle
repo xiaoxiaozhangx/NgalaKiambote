@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.NFA.NgalaKiambote"
+        applicationId "com.Ngala.Kiambote"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -26,9 +26,6 @@ android {
 }
 
 dependencies {
-
-    def lifecycle_version = "1.1.1"
-    def glideVersion = "4.8.0"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
@@ -63,18 +60,14 @@ dependencies {
 
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
 
+    implementation "android.arch.persistence.room:runtime:1.1.1"
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
 
-    // Room
-    implementation "android.arch.persistence.room:runtime:$lifecycle_version"
-    annotationProcessor "android.arch.persistence.room:compiler:$lifecycle_version"
-    // Glide RecyclerView Preloader
-    implementation ("com.github.bumptech.glide:recyclerview-integration:$glideVersion") {
-        // Excludes the support library because it's already included by Glide.
+    implementation("com.github.bumptech.glide:recyclerview-integration:4.8.0") {
         transitive = false
     }
 
-    // ViewModel and LiveData
-    implementation "android.arch.lifecycle:extensions:$lifecycle_version"
+    implementation "android.arch.lifecycle:extensions:1.1.1"
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

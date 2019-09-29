@@ -101,7 +101,8 @@
                     android:completionHint="@string/select_type_doctor"
                     android:completionThreshold="1"
                     android:textSize="@dimen/edit_email"
-                    android:visibility="gone" />
+                    android:visibility="gone"
+                    tools:ignore="LabelFor" />
 
                 <RadioButton
                     android:id="@+id/mRdBtnNurse"

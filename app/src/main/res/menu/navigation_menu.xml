@@ -4,18 +4,14 @@
     tools:showIn="@+id/mNavigationView">
 
     <group android:checkableBehavior="single">
+       
         <item
-            android:id="@+id/nav_profile"
-            android:icon="@drawable/customer"
-            android:title="Perfil" />
-
-        <item
-            android:id="@+id/nav_"
+            android:id="@+id/nav_store"
             android:icon="@drawable/shopping_cart"
-            android:title="Produtos" />
+            android:title="Kits de Saúde" />
 
         <item
-            android:id="@+id/nav_wheat"
+            android:id="@+id/nav_plants"
             android:icon="@drawable/wheat"
             android:title="Plantas Medicinais" />
 
