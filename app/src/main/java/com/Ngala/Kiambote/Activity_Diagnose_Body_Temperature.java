@@ -32,10 +32,10 @@ import java.util.Objects;
 
 public class Activity_Diagnose_Body_Temperature extends AppCompatActivity implements SensorEventListener {
 
-    LineChart mGraphTemperature;
-    TextView mTextQuantityTemperature;
-    SensorManager mSensorManager;
-    Sensor mSensor;
+    private LineChart mGraphTemperature;
+    private TextView mTextQuantityTemperature;
+    private SensorManager mSensorManager;
+    private Sensor mSensor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

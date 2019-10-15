@@ -24,9 +24,9 @@ import java.util.List;
 
 public class Adapter_Medicinal_Plants extends RecyclerView.Adapter<Adapter_Medicinal_Plants.Holder_Medicinal_Plants> {
 
-    private Context context;
-    private List<Model_MedicinalPlants> model_medicinal_plantsList;
-    private ArrayList<Model_MedicinalPlants>  arrayList;
+    private final Context context;
+    private final List<Model_MedicinalPlants> model_medicinal_plantsList;
+    private final ArrayList<Model_MedicinalPlants>  arrayList;
 
     public Adapter_Medicinal_Plants(Context context, List<Model_MedicinalPlants> model_medicinal_plantsList) {
         this.context = context;
@@ -89,8 +89,14 @@ public class Adapter_Medicinal_Plants extends RecyclerView.Adapter<Adapter_Medic
 
     public class Holder_Medicinal_Plants extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        ImageView holder_image;
-        TextView holder_name, holder_common_name, holder_geographical_localization, holder_habitat, holder_species_description, holder_use, holder_parts_used;
+        final ImageView holder_image;
+        final TextView holder_name;
+        final TextView holder_common_name;
+        final TextView holder_geographical_localization;
+        final TextView holder_habitat;
+        final TextView holder_species_description;
+        final TextView holder_use;
+        final TextView holder_parts_used;
 
         ItemClick_Medicinal_Plants itemClickListener;
 
@@ -119,7 +125,7 @@ public class Adapter_Medicinal_Plants extends RecyclerView.Adapter<Adapter_Medic
         }
     }
 
-    public interface ItemClick_Medicinal_Plants {
+    interface ItemClick_Medicinal_Plants {
         void onMedicinalPlantsClick(View view, int position);
     }
 

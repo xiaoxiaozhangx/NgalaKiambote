@@ -15,15 +15,19 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import java.util.Objects;
+
 public class Activity_Login extends AppCompatActivity {
 
-    EditText mEditName, mEditPassword;
-    Button mBtnLogin;
-    TextView mTextForgetPassword, mTextRegisterUser;
-    ProgressDialog mLoadingBar;
-    Dialog mDialog;
+    private EditText mEditName;
+    private EditText mEditPassword;
+    private Button mBtnLogin;
+    private TextView mTextForgetPassword;
+    private TextView mTextRegisterUser;
+    private ProgressDialog mLoadingBar;
+    private Dialog mDialog;
 
-    private String mFileName = "myFile";
+    private final String mFileName = "myFile";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +35,7 @@ public class Activity_Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

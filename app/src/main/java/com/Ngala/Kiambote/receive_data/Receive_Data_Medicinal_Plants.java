@@ -18,6 +18,8 @@ import com.Ngala.Kiambote.R;
 import com.jsibbold.zoomage.ZoomageView;
 import com.squareup.picasso.Picasso;
 
+import java.util.Objects;
+
 public class Receive_Data_Medicinal_Plants extends AppCompatActivity {
 
     private ZoomageView receive_image_plants_medical;
@@ -31,7 +33,7 @@ public class Receive_Data_Medicinal_Plants extends AppCompatActivity {
         setContentView(R.layout.receive_data_medicinal_plants);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

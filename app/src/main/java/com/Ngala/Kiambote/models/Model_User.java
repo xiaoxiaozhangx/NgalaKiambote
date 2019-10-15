@@ -1,6 +1,6 @@
 package com.Ngala.Kiambote.models;
 
-public class Model_User {
+class Model_User {
 
     private int id;
     private String name;

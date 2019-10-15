@@ -27,13 +27,11 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Activity_Menu extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    NavigationView mNavigationView;
-    DrawerLayout mDrawerLayout;
-    ImageView mNavImgUser;
+    private NavigationView mNavigationView;
+    private DrawerLayout mDrawerLayout;
 
-    CircleImageView mCircleImgProfile;
-    CardView mCardWeight, mCardHeight, mCardHealthBeat, mCardTemperatureBody;
-    TextView mTxtNameUser, mTxtTypeUser, mTxtWeightUser, mTxtUserHeight, mTxtUserHealthBeat, mTxtUserTemperatureBody, mTxtStatusUser;
+    private CardView mCardHealthBeat;
+    private CardView mCardTemperatureBody;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,22 +49,10 @@ public class Activity_Menu extends AppCompatActivity implements NavigationView.O
         toggle.syncState();
 
         View view = mNavigationView.inflateHeaderView(R.layout.nav_header_main);
-        mNavImgUser = view.findViewById(R.id.mNavImgUser);
-
         mNavigationView.setNavigationItemSelectedListener(this);
 
-        mCircleImgProfile = findViewById(R.id.mCircleImgProfile);
-        mTxtNameUser = findViewById(R.id.mTxtNameUser);
-        mTxtTypeUser = findViewById(R.id.mTxtTypeUser);
-        mCardWeight = findViewById(R.id.mCardWeight);
-        mCardHeight = findViewById(R.id.mCardHeight);
         mCardHealthBeat = findViewById(R.id.mCardHealthBeat);
         mCardTemperatureBody = findViewById(R.id.mCardTemperatureBody);
-        mTxtWeightUser = findViewById(R.id.mTxtWeightUser);
-        mTxtUserHeight = findViewById(R.id.mTxtUserHeight);
-        mTxtUserHealthBeat = findViewById(R.id.mTxtUserHealthBeat);
-        mTxtUserTemperatureBody = findViewById(R.id.mTxtUserTemperatureBody);
-        mTxtStatusUser = findViewById(R.id.mTxtStatusUser);
 
         mCardHealthBeat.setOnClickListener(new View.OnClickListener() {
             @Override

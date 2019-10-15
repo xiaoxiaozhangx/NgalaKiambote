@@ -16,12 +16,13 @@ import com.Ngala.Kiambote.adapters.Adapter_Medicinal_Plants;
 import com.Ngala.Kiambote.models.Model_MedicinalPlants;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Activity_Medicinal_Plants extends AppCompatActivity {
 
-    Toolbar toolbar;
-    RecyclerView mRecyclerMedicinalPlants;
-    Adapter_Medicinal_Plants mAdapterMedicinalPlants;
+    private Toolbar toolbar;
+    private RecyclerView mRecyclerMedicinalPlants;
+    private Adapter_Medicinal_Plants mAdapterMedicinalPlants;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,7 @@ public class Activity_Medicinal_Plants extends AppCompatActivity {
         setContentView(R.layout.activity_medicinal_plants);
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

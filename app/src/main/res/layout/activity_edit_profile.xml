@@ -25,7 +25,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/appBar"
-        android:layout_marginTop="6dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -33,6 +32,7 @@
             android:id="@+id/mCircleImgProfile"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:layout_margin="6dp"
             android:src="@drawable/image_user"
             app:civ_border_color="@color/cream"
             app:civ_border_width="2dp" />
@@ -44,13 +44,12 @@
             <EditText
                 android:id="@+id/mTxtNameUser"
                 android:layout_width="match_parent"
-                android:layout_height="21dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/intro_regular"
                 android:gravity="center"
                 android:singleLine="true"
                 android:hint="Name"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -74,7 +73,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Actualizar Perfil"/>
+        android:text="Actualizar Perfil"
+        android:background="@color/colorPrimary"/>
 
 
 </RelativeLayout>

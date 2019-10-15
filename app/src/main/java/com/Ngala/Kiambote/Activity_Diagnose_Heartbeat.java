@@ -28,12 +28,14 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
+import java.util.Objects;
+
 public class Activity_Diagnose_Heartbeat extends AppCompatActivity implements SensorEventListener {
 
-    LineChart mGraphHeartBeat;
-    TextView mTextQuantityHeartBeat;
-    SensorManager mSensorManager;
-    Sensor mSensor;
+    private LineChart mGraphHeartBeat;
+    private TextView mTextQuantityHeartBeat;
+    private SensorManager mSensorManager;
+    private Sensor mSensor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +43,7 @@ public class Activity_Diagnose_Heartbeat extends AppCompatActivity implements Se
         setContentView(R.layout.activity_diagnose_heartbeat);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
