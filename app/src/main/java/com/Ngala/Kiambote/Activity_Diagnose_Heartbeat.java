@@ -20,7 +20,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.github.mikephil.charting.charts.LineChart;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -32,7 +31,6 @@ import java.util.Objects;
 
 public class Activity_Diagnose_Heartbeat extends AppCompatActivity implements SensorEventListener {
 
-    private LineChart mGraphHeartBeat;
     private TextView mTextQuantityHeartBeat;
     private SensorManager mSensorManager;
     private Sensor mSensor;
@@ -52,7 +50,7 @@ public class Activity_Diagnose_Heartbeat extends AppCompatActivity implements Se
             }
         });
 
-        mGraphHeartBeat = findViewById(R.id.mGraphHeartBeat);
+
         mTextQuantityHeartBeat = findViewById(R.id.mTextQuantityHeartBeat);
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);

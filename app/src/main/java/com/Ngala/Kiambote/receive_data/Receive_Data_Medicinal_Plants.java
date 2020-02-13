@@ -15,8 +15,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.Ngala.Kiambote.R;
+import com.bumptech.glide.Glide;
 import com.jsibbold.zoomage.ZoomageView;
-import com.squareup.picasso.Picasso;
 
 import java.util.Objects;
 
@@ -64,7 +64,7 @@ public class Receive_Data_Medicinal_Plants extends AppCompatActivity {
 
             int image_plants_medical = intent.getIntExtra("image", 0);
 
-            Picasso.get().load(image_plants_medical).into(receive_image_plants_medical);
+            Glide.with(this).load(image_plants_medical).into(receive_image_plants_medical);
             receive_name_plants_medical.setText(title_plants_medical);
             receive_common_name_plants_medical.setText(traditional_name_plants_medical);
             receive_geographical_location_plants_medical.setText(location_plants_medical);

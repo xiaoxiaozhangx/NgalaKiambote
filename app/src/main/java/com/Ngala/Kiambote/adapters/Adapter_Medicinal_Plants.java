@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.Ngala.Kiambote.R;
 import com.Ngala.Kiambote.models.Model_MedicinalPlants;
 import com.Ngala.Kiambote.receive_data.Receive_Data_Medicinal_Plants;
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ public class Adapter_Medicinal_Plants extends RecyclerView.Adapter<Adapter_Medic
     @Override
     public void onBindViewHolder(@NonNull Holder_Medicinal_Plants holder, int pos) {
 
-        Picasso.get().load(model_medicinal_plantsList.get(pos).getImage()).into(holder.holder_image);
+        Glide.with(context).load(model_medicinal_plantsList.get(pos).getImage()).into(holder.holder_image);
         holder.holder_name.setText(model_medicinal_plantsList.get(pos).getName());
         holder.holder_common_name.setText(model_medicinal_plantsList.get(pos).getCommon_name());
         holder.holder_geographical_localization.setText(model_medicinal_plantsList.get(pos).getGeographical_location());
